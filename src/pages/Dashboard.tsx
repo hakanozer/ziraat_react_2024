@@ -42,10 +42,12 @@ function Dashboard(props: {age: number}) {
     return <button onClick={onClick}>I am a child</button>;
   }
 
+  /*
   const myComponent = memo( function myComponent(props: any) {
   }, (prevProps:number, nextProps: number) => {
     return 10
   } )
+  */
 
 
   return (
